@@ -14,6 +14,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  * Fix a bug where the reader was double counting the CRLF newline seq in metadata (#1063)
  * Conform to the `cider-nrepl` `info` ops spec by ensuring result's `:file` is URI, also added missing :column number (#1066)
 
+### Other
+ *  Improve the state of the Python type hints in `basilisp.lang.multifn` (#800)
+
 ## [v0.2.3]
 ### Added
  * Added a compiler metadata flag for suppressing warnings when Var indirection is unavoidable (#1052)
